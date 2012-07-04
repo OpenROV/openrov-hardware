@@ -1,5 +1,3 @@
 == OpenROV Project ==
 
-This is the repository for the OpenROV Hardwarwe maintaned by the Core OpenROV team.
-
-Shoot ahead any changes or pull requests :) We are talking tangible here!
+This is the development branch, it may be incomplete, use at your own risk.
