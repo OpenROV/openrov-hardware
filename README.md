@@ -1,4 +1,5 @@
-== OpenROV Project ==
+OpenROV Project
+===
 
 This is the repository for the OpenROV Hardwarwe maintaned by the Core OpenROV team.
 
