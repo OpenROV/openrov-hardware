@@ -4,7 +4,8 @@ OpenROV
 
 Introduction
 -------
-This is the development branch, it may be incomplete and is opt to change, so use at your own risk.
+These are the project files for both the OpenROV shell, and the electronics' chassis.
+In addition to the Adobe Fusion files, it also contains the files with all the parts laid down and ready to be laser cut.
 
 License
 -------
