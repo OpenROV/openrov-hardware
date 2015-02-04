@@ -4,8 +4,7 @@ OpenROV
 
 Introduction
 -------
-These are the project files for both the OpenROV shell, and the electronics' chassis.
-In addition to the Adobe Fusion files, it also contains the files with all the parts laid down and ready to be laser cut.
+These are the CAD files for the different versions of the OpenROV. The [Bill of Materials](https://docs.google.com/spreadsheet/ccc?key=0Avf6fUwp9B3kdF9YQWxBTnZjZEVGZVQwY25EbnVyREE&usp=sharing) has a list of all the parts needed to build an ROV.
 
 License
 -------
