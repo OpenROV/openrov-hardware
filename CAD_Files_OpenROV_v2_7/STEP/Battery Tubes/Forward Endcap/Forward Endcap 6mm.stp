@@ -10,9 +10,10 @@ FILE_DESCRIPTION(
 
 FILE_NAME(
 /* name */ 
-'C:\\Users\\Evil Brian\\Desktop\\Brian G\\CAD_Files_OpenROV_v2_7\\Batt
-ery Tubes\\Forward Endcap\\Forward Endcap 6mm.stp',
-/* time_stamp */ '2015-01-16T15:52:05-08:00',
+'C:\\Users\\Evil Brian\\Documents\\GitHub\\openrov-hardware\\CAD_Files
+_OpenROV_v2_7\\STEP\\Battery Tubes\\Forward Endcap\\Forward Endcap 6mm.
+stp',
+/* time_stamp */ '2015-06-19T08:42:37-07:00',
 /* author */ ('Evil Brian'),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v15.6',
@@ -48,8 +49,8 @@ DATA;
 #32=EDGE_LOOP('',(#52));
 #33=CIRCLE('',#62,1.4);
 #34=CIRCLE('',#63,1.4);
-#35=CIRCLE('',#65,9.6);
-#36=CIRCLE('',#66,9.6);
+#35=CIRCLE('',#65,9.75);
+#36=CIRCLE('',#66,9.75);
 #37=VERTEX_POINT('',#89);
 #38=VERTEX_POINT('',#91);
 #39=VERTEX_POINT('',#94);
@@ -67,7 +68,7 @@ DATA;
 #51=ORIENTED_EDGE('',*,*,#44,.T.);
 #52=ORIENTED_EDGE('',*,*,#42,.T.);
 #53=CYLINDRICAL_SURFACE('',#61,1.4);
-#54=CYLINDRICAL_SURFACE('',#64,9.6);
+#54=CYLINDRICAL_SURFACE('',#64,9.75);
 #55=ADVANCED_FACE('',(#21,#17),#53,.F.);
 #56=ADVANCED_FACE('',(#22,#18),#54,.T.);
 #57=ADVANCED_FACE('',(#23,#19),#15,.T.);
@@ -107,12 +108,12 @@ DATA;
 #91=CARTESIAN_POINT('',(-1.4,0.,1.71450551880629E-16));
 #92=CARTESIAN_POINT('Origin',(0.,0.,0.));
 #93=CARTESIAN_POINT('Origin',(0.,0.,0.));
-#94=CARTESIAN_POINT('',(-9.6,6.,1.17566092718146E-15));
+#94=CARTESIAN_POINT('',(-9.75,6.,1.19403062916867E-15));
 #95=CARTESIAN_POINT('Origin',(0.,6.,0.));
-#96=CARTESIAN_POINT('',(-9.6,0.,1.17566092718146E-15));
+#96=CARTESIAN_POINT('',(-9.75,0.,1.19403062916867E-15));
 #97=CARTESIAN_POINT('Origin',(0.,0.,0.));
-#98=CARTESIAN_POINT('Origin',(4.83465849704412E-16,6.,-1.92747052886312E-16));
-#99=CARTESIAN_POINT('Origin',(4.83465849704412E-16,0.,-1.92747052886312E-16));
+#98=CARTESIAN_POINT('Origin',(4.79065979652998E-16,6.,1.89781713611138E-16));
+#99=CARTESIAN_POINT('Origin',(4.79065979652998E-16,0.,1.89781713611138E-16));
 #100=UNCERTAINTY_MEASURE_WITH_UNIT(LENGTH_MEASURE(0.01),#104,
 'DISTANCE_ACCURACY_VALUE',
 'Maximum model space distance between geometric entities at asserted c
