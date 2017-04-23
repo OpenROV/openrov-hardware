@@ -6,6 +6,8 @@ Introduction
 -------
 These are the CAD files for the different versions of the OpenROV. The [Bill of Materials](https://docs.google.com/spreadsheet/ccc?key=0Avf6fUwp9B3kdF9YQWxBTnZjZEVGZVQwY25EbnVyREE&usp=sharing) has a list of all the parts needed to build an ROV.
 
+Stock 2.8 e-chassis is ~344g
+
 We do not guarantee the accuracy of the DXF files for direct use on a laser cutter. Every laser cutter is slightly different and you might have to make adjustments in order for the files to meet your needs. 
 
 If you notice any problems with the files please submit them as issues.
