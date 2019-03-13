@@ -9,6 +9,7 @@ This repository contains the CAD files for the different versions of the OpenROV
 Resources
 -------
 [Bill of Materials](https://docs.google.com/spreadsheet/ccc?key=0Avf6fUwp9B3kdF9YQWxBTnZjZEVGZVQwY25EbnVyREE&usp=sharing)
+
 [Electronics files](https://github.com/OpenROV/openrov-electronics)
 
 Notes
