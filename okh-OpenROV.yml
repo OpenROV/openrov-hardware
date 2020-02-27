@@ -1,0 +1,170 @@
+# Open know-how manifest
+# according to The Open Know-How Manifest Specification Version 1.0
+# for more info, see http://openknowhow.org/
+
+# The content of this manifest file is licensed under a Creative Commons Attribution 4.0 International License.
+# Licenses for modification and distribution of the hardware, documentation, source-code, etc are stated separately.
+
+# Remove any fields that are not used. Comments (beginning with '#') may also be removed.
+
+# Manifest metadata
+
+date-created: 2020-02-27                   # YYYY-MM-DD
+
+#date-updated: [value]                      # YYYY-MM-DD
+
+manifest-author:
+  name: Jérémy Bonvoisin                  # required | text
+  affiliation: University of Bath        # text
+  email: j.bonvoisin@bath.ac.uk        # email address
+
+manifest-language: EN-UK
+
+#documentation-language: [language-code]-[region]
+
+#manifest-is-translation:
+#  title: [value]                           # text | Title of the original
+#  manifest: [value]                        # URL - Absolute path | OKH manifest location
+#  web: [value]                             # URL - Absolute path | web presence location
+#  lang: [language]-[region]                # language of original
+
+#documentation-is-translation:
+#  title: [value]                           # text | Title of the original
+#  manifest: [value]                        # URL - Absolute path | OKH manifest location
+#  web: [value]                             # URL - Absolute path | web presence location
+#  lang: [language]-[region]                # language of original
+
+# Properties
+
+title: OpenROV                             # required | text | A title to identify the thing
+
+description: |                             # required | paragraph
+  OpenROV is a DIY telerobotics community centered around underwater exploration & adventure
+
+#intended-use: |                            # recommended | Paragraph
+#  [value]
+
+keywords:                                  # At least one keyword is recommended | text array
+  - [keyword 1]
+  - [keyword 2]
+
+project-link: https://openrov.com/                      # At least project-link or documentation-home is required, otherwise recommended | absolute path URL
+
+#health-safety-notice: |                    # paragraph
+#  [value]
+
+#contact:
+#  name: [value]                            # text
+#  affiliation: [value]                     # text
+#  email: [value]                           # email address
+#  social:
+#    - platform: [value]                    # text
+#      user-handle: [value]                 # text
+
+#contributors:                              # recommended
+#  - name: [contributor 1]                  # text
+#    affiliation: [value]                   # text
+#    email: [value]                         # email address
+
+image: https://raw.githubusercontent.com/OpenKnowHow-Forks/openrov-hardware/okh-manifest-creation/_img/openRovLogo.png                             # recommended | absolute or relative path
+
+version: OpenROV_v2_8                          # text
+
+#development-stage: [value]                 # text
+
+made: true                       # boolean - true or false
+
+#made-independently: [true/false]           # boolean - true or false
+
+#standards-used:
+#  - standard-title: [value]                # Required where used | Title of the standard used in developing the design or documentation
+#    publisher: [value]                     # Publisher of the standard
+#    reference: [value]                     # Reference indentifier of the standard (e.g. ISO 9001)
+#    certification:                         # If certification has been granted confirming compliance with the standard
+#      - certifier: [value]                 # Individual or organisation granting the certification. Use "Self" for self-certification
+#        date-awarded: [value]              # Date certification was granted
+#        link: [value]                      # Link to evidence of certification (e.g. certificate). Use an an absolute path to an external resource or an absolute or relative path to evidence within the documentation.
+
+#derivative-of:
+#  title: [value]                           # text | Title of the original
+#  manifest: [value]                        # URL - Absolute path | OKH manifest location
+#  web: [value]                             # URL - Absolute path | web presence location
+
+#variant-of:
+#  title: [value]                           # text | Title of the original
+#  manifest: [value]                        # URL - Absolute path | OKH manifest location
+#  web: [value]                             # URL - Absolute path | web presence location
+
+#sub:
+#  title: [sub 1]                           # text | Title of the original
+#  manifest: [value]                        # URL - Absolute path | OKH manifest location
+#  web: [value]                             # URL - Absolute path | web presence location
+
+# License
+
+license:                                   # At least one license is required | The format should be an SPDX identifier. See https://spdx.org/licenses/hardware: [value] # recommended | The license under which the hardware is released
+ # hardware: [value]                        # recommended | The license under which the documentation is released
+  documentation: CC-BY-SA 4.0                   # recommended | The license under which the documentation is released
+ # software: [value]                        # recommended where software is used | The license under which the software is released
+
+#licensor:
+#  name: [value]                            # text
+#  affiliation: [value]                     # text
+#  email: [value]                           # email address
+
+# Documentation
+
+documentation-home: https://github.com/OpenROV/openrov-hardware              # At least one of the project-link or documentation-home fields is required | absolute path
+
+#archive-download: [value]                 # Absolute or relative path
+
+#design-files:                             # recommended
+#  - path: [value]                         # Absolute or relative path
+#    title: [value]                        # text
+
+#schematics:                               # recommended where applicable
+#  - path: [value]                         # Absolute or relative path
+#    title: [value]                        # text
+
+#bom: [value]                              # recommended | absolute or relative path | Direct the maker to the Bill of Materials
+
+#tool-list: [value]                        # recommended | absolute or relative path | Direct the maker to a list of tools required to make the thing
+
+#making-instructions:                      # recommended
+#  - path: [value]                         # Absolute or relative path
+#    title: [value]                        # text
+
+#manufacturing-files:                      # recommended where applicable
+#  - path: [value]                         # Absolute or relative path
+#    title: [value]                        # text
+
+#risk-assessment:                          # recommended
+#  - path: [value]                         # Absolute or relative path
+#    title: [value]                        # text
+
+#tool-settings:                            # recommended where applicable
+#  - path: [value]                         # Absolute or relative path
+#    title: [value]                        # text
+
+#quality-instructions:
+#  - path: [value]                         # Absolute or relative path
+#    title: [value]                        # text
+
+#operating-instructions:                   # recommended
+#  - path: [value]                         # Absolute or relative path
+#    title: [value]                        # text
+
+#maintenance-instructions: [value]         # recommended
+#  - path: [value]                         # Absolute or relative path
+#    title: [value]                        # text
+
+#disposal-instructions: [value]            # recommended
+#  - path: [value]                         # Absolute or relative path
+#    title: [value]                        # text
+
+#software:                                 # recommended where applicable | Source code or executable software that the thing uses
+#  - path: [value]                         # Absolute or relative path
+#    title: [value]                        # text
+
+# User defined Fields
+# Include any custom / extended fields here
